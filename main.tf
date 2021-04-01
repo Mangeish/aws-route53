@@ -5,9 +5,7 @@ terraform {
       version = "~> 3.0"
     }
   }
-}
 
-terraform {
   backend "s3" {
     bucket = "mybuckett117"
     key    = "myaccount/terraform.tfstate"
